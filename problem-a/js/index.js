@@ -113,6 +113,8 @@ console.log(shapes);
 //the current property value!). What do you get?
 console.log(shapes.hypotenuse);
 
+// i get undifined
+
 //Assign the triangle inside the `shapes` array a 'hypotenuse' property of `55`.
 //Log out the `shapes` array again.
 //Visually check: what happens if you inspect the previously logged array in the 
@@ -120,3 +122,4 @@ console.log(shapes.hypotenuse);
 shapes[2].hypotenuse=55;
 console.log(shapes);
 
+// changed now
